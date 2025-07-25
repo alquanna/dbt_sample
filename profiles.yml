@@ -1,0 +1,13 @@
+sellerx_snowflake_test:
+  outputs:
+    dev:
+      account: ejupctu-wl01729
+      database: sellerx_sampledata
+      password: 
+      role: accountadmin
+      schema: snowflake_test
+      threads: 1
+      type: snowflake
+      user: cabuenconsejo
+      warehouse: PC_DBT_WH
+  target: dev

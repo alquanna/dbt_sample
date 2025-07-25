@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "sellerx-test"
+version = "0.1.0"
+description = "DBT Project for SellerX Test"
+authors = ["Clara Buenconsejo <etherealgrace@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.10,<4"
+dbt-core = "1.8.4"
+dbt-snowflake = "1.8.2"
