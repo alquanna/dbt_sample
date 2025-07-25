@@ -2,7 +2,10 @@
 
 ## Data Model Design
 
+This dbt repo was originally made using dbt partner connect on Snowflake, eventually updated to work locally.
 
+### Data Lineage
+![Data lineage](https://storage.googleapis.com/clara_public/SCR-20250725-tmim.png "Data Lineage via dbt docs")
 
 ### Base Models
 
