@@ -1,0 +1,13 @@
+version: 2
+sources:
+- name: sellerx_test
+  description: 'Sample data for SellerX Take Home Task'
+  database: pc_dbt_db
+  schema: sellerx_test
+  tables:
+  - name: device
+    identifier: device
+  - name: store
+    identifier: store
+  - name: transaction
+    identifier: transaction

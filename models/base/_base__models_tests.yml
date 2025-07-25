@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: base__devices
+    description: Base model for device data
+    columns:
+      - name: device_id
+        data_tests:
+          - not_null
+          - unique
+      - name: device_type
+      - name: store_id
+
+  - name: base__stores
+    description: Base model for store information
+    columns:
+      - name: store_id
+        data_tests:
+          - not_null
+          - unique
+      - name: store_name
+      - name: store_address
+      - name: store_city
+      - name: store_country
+      - name: store_type
+      - name: customer_id
+      - name: record_created_at
+
+  - name: base__transactions
+    description: Base model for transaction data
+    columns:
+      - name: transaction_id
+        data_tests:
+          - not_null
+          - unique
+      - name: device_id
+      - name: main_product_name
+      - name: secondary_product_name
+      - name: product_sku
+      - name: transaction_amount
+      - name: transaction_status
+      - name: transaction_happened_at
+      - name: record_created_at
