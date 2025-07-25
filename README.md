@@ -1,4 +1,5 @@
 # Take Home Task for SellerX Application
+Created by Clara Buenconsejo @alquanna
 
 ## Data Model Design
 
