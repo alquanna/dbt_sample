@@ -1,5 +1,6 @@
-# Take Home Task for SellerX Application
+# Sample dbt repo
 Created by Clara Buenconsejo @alquanna
+Originally built as a take-home exam for a job application -- now repurposing as a general portfolio
 
 ## Data Model Design
 
